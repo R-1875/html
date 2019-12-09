@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<style>
+p {
+  border-style: dotted solid;
+  }
+body {
+  background-image: url("sbi.jpg.jpg");
+  background-repeat: no-repeat;
+ box-sizing: border-box;
+width: 100%;
+height: 150px;
+padding: 3px;
+border: 1px solid black;
+background-size: 100% 100%;
+font-style: italic;
+}
+
+
+<!--///////////////////////////////////////////////////////////--->
+.flip-card {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  perspective: 500px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.red
+{
+	color:red;
+	background:blue;
+	text-align: right;
+
+}
+.thick
+{
+	font-size:10px;
+}
+.green
+{
+	colour:green;
+}
+
+.column-layout
+{
+	max-width: 1300px;
+	background-color: #ffff;
+	margin: 40px auto 0 auto ;
+	line-height: 1.65;
+	padding:1px 50px;
+	display: flex;
+
+}
+.main-column{
+	flex: 1;
+	order: 1;
+
+}
+.sidebar-one{
+	flex: 1;
+	order: 2;
+
+}
+.sidebar-two{
+	flex: 1;
+	order: 3;
+
+}
+
+.equal-height-container{
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+
+}
+.first{
+	background-color: #fff;
+	padding: 20 px;
+	flex: 1;
+
+}
+.second{
+	background-color: yellow;
+	flex: 1;
+	display: flex;
+	flex-direction: column ;
+}
+.second-a{
+	background-color: #c0dbe2;
+	flex: 1;
+
+}
+.second-b{
+	background-color: #cdf1c3;
+	flex: 1;
+	
+}
+
+
+
+<!--  ///////////////////////////////////////////////////////////  -->
+<head>
+	<title>Welcome_To_SBI</title>
+	<link rel='stylesheet' type="text/css" href="MyStyle.css"
+</head>
+
+}
+p1{
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+</style><p><p1 class="serif"><br><br>
+<br><br>
+<br><br>
+
+<br><br>
+
+<br><br>
+<br><br>
+	<body bgcolor="pink">  <h1 align="center">KYC FORM</h1></p></p1><br>
+	
+
+
+	<label style="font-family: Arial"> Fistname</label>
+	<input type="text" name="t1" value="" style="background-color:yellow ;border-color: red ;border-style :dotted"></input><br><br>
+  
+
+	<label style="font-family: Arial"> Lastname</label>
+	<input type="text" name="t2" value="" style="background-color:yellow ;border-color: red ;border-style :dotted"><br><br>
+	
+	<label>Address</label>
+	<textarea name="address"  rows=5  cols =10 name="t2" value="" style="background-color:yellow ;border-color: red ;border-style :dotted">
+	</textarea> <br><br>
+
+<label><b>Gender</b></label>
+<input type ="radio" name="size" value="male">male</input>
+<input type ="radio" name="size" value="not a male">not a male</input>
+<br><br><br>
+<label><b>Type of address</b></label>
+<input type ="radio" name="size" value="office">office</input>
+<input type ="radio" name="size" value="home">home</input>
+<input type ="radio" name="size" value="others">others</input>
+
+
+<br><br><br>
+<label><b>Type of address</b></label>
+<input type="checkbox" name="size" value ="home ">home</input>
+<input type="checkbox" name="size" value ="office ">office</input>
+<input type="checkbox" name="size" value ="others ">others</input>	
+<br><br><br>
+<b>Select the admin work to perform</b><br><br>
+<select>
+	<option value ="updating profile ">updating profile 
+		<option value ="view all accounts">view all accounts
+			<option value ="view all trancations">view all trancations 
+				<option value ="search by acc number">search by acc number
+
+</select>
+</label>
+<br><br>
+
+enter range<input type="range" name="range1" min=0 max=50><br><br><br>
+enter number <input type='number' name="marks" min=10 max=50><br><br><br>
+enter email: <input type="email"  name="mymail"><br><br><br>
+Select a file <input type="file" name="myfile"><br><br><br>
+
+
+
+select your fav colour<input type="color" name="color1"></input>
+
+<br><br>
+
+	<input type="button" name="b1" value="Home" onclick="window.
+	location.href='2.html';" ></input>
+	<input type="submit" name="b1"></input>
+	<input type="reset" name="b1"></input>
+</form>
+</p>
+</option>
+</option>
+</option></option></select>	
+
+<div class="column-layout">
+	<div class="main-column">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="ramdev.jpg" alt="Avatar" >
+    </div>
+    <div class="flip-card-back">
+      <h1 style="color:red" fontsize:20px >Ramdev 
+      <p>too useless</p> 
+      <p>does yoga</p></h1>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<div class="sidebar-one">
+   <div class="flip-card">
+      <div class="flip-card-inner">
+         <div class="flip-card-front">
+             <img src="narendra1.jpg" alt="Avatar" style="width:300px;height:300px;background-color:red">
+         </div>
+         <div class="flip-card-back">
+      <h1 style="color:black" >narendra
+      <p>politician</p> 
+      <p>does yoga</p></h1> 
+    </div>
+  </div>
+
+
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<div class="sidebar-two">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="nawaz.jpg" alt="Avatar" style="width:300px;height:300px;background-color:red">
+    </div>
+    <div class="flip-card-back">
+
+      <h1 style="color:blue" >nawaz
+      <p>pakistani</p> 
+      <p>sleeps</p></h1> 
+    </div>
+  </div>
+</div>
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+
+<div clas="equal-height-container">
+
+	<div class ="first">
+	</div>
+
+	<div class="second">
+		<div class="second-a">a</div>
+		<div class="second-b">b</div>
+
+
+
+
+
+</body>
+</html>
