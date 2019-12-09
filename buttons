@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rahul Kumar</title>
+</head>
+<body bgcolor="pink">  <h1 align="center">RAHUL KUMAR</h1>
+	<B><I>Nithyananda</I></B>(<U>also called Paramahamsa Nithyananda, born c. 1977–1978 in Tiruvannamalai, India</U>) is a self-styled Hindu Swami from Tamil Nadu and is the founder of a trust Nithyananda Dhyanapeetam, which has 
+	<LI>temples</LI>
+	<LI>gurukulas</LI>
+	<LI>ashrams</LI>
+	across many countries.
+
+    Nithyananda has been subject to widespread negative reception, having broadcast a range of nonsensical pseudoscientific claims over his spiritual sessions. He has been also facing prosecution on charges of rape and child abuse.
+for more information click 
+<br>
+
+<div style="background-color: white" >
+list of links for reference 
+<li> <a href="https://www.google.com/	"> google </a> </li>
+<li> <a href="https://www.amazon.in/">  amamzon</a> </li>
+<li> <a href="https://www.google.com/search?q=wikipedia&rlz=1C1CHBF_enIN765IN765&oq=wikii&aqs=chrome.2.69i57j0l7.3587j0j7&sourceid=chrome&ie=UTF-8"> wiki</a> </li>
+
+</div>
+
+<img src="a.jpg"  width="130" height="200"/>
+
+<TABLE border="1">
+	<tr>
+		
+			<th> <bg colour="red">Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        
+	</tr><tr>
+		
+		<th>rahul</th>
+        <th>21</th>
+        <th>bangalore</th>
+	</tr><tr>
+		<th>divya</th>
+        <th>22</th>
+        <th>lahore</th>
+		<table border="2">
+	<tr>
+
+            <th>pin</th> <th>food</th>
+            <th>fav</th>
+        </tr>
+
+<svg width="200" height="200" border=2px fill= "red";>
+<circle cx="100" cy="100" r="70"/>
+</svg>
+
+<svg width="400" height="180" fill="blue" >
+	<rect x="50" y="20" rx="0" ry="0"  width="500" height="200" />
+	
+</svg>
+<figure>
+
+	<img src="power.jpg" alt="PowPetrol" width="200px" height="200px"> <! alternate text >
+	<figcaption>
+		fig.1:ye fig bekar hai 
+	</figcaption>
+</figure>
+
+
+<video width="400" controls autoplay>
+	<source src="https://www.youtube.com/embed/tgbNymZ7vqY" type="video/mp4">
+
+	</video>
+
+<iframe  width ="200" height="200" src="youtube link "><! for directly playing a video from youtube  >
+	
+</iframe>
+</TABLE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
